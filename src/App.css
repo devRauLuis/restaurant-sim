@@ -1,0 +1,7 @@
+.card {
+	@apply text-center bg-lime-300 py-3;
+}
+
+.card-title {
+	@apply text-xl font-bold mb-2;
+}

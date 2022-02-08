@@ -1,3 +1,4 @@
+import { Person } from '../models';
 import PeopleCard from './PeopleCard';
 
 type Props = {

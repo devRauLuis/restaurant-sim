@@ -1,4 +1,5 @@
 import React, { ReactNode } from 'react';
+import { Person } from '../models';
 type Props = { children?: ReactNode; people: Person[] | null; title: string };
 
 export default function PeopleCard({ people, title, children }: Props) {

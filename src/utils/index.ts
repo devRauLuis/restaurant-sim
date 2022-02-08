@@ -3,6 +3,7 @@ import {
 	THREE_COURSE,
 	TWO_COURSE,
 } from '../customHooks/useCutlery';
+import { Person } from '../models';
 import names from './names';
 
 export const delay = (cb: () => void, time: number) => setTimeout(cb, time);

@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import useCutlery from '../customHooks/useCutlery';
+import { Person } from '../models';
 import {
 	checkAndDecrementCutlery,
 	checkAndIncrementCutlery,

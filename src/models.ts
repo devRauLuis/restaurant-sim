@@ -1,18 +1,18 @@
-type Food = 'ENTREE' | 'MAIN_DISH' | 'DESSERT';
+export type Food = 'ENTREE' | 'MAIN_DISH' | 'DESSERT';
 
-enum Cutlery {
+export enum Cutlery {
 	Knife = 'KNIFE',
 	Spoon = 'SPOON',
 	Fork = 'FORK',
 	CakeSpoon = 'CAKE_SPOON',
 }
 
-type Person = {
+export type Person = {
 	name: string;
 	food: Record<Food, boolean>;
 	eatingTime: number;
 };
 
-type People = Person[];
+export type People = Person[];
 
 export {};

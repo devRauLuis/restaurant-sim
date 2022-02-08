@@ -5,7 +5,6 @@
 - NodeJS
 - npm
 - yarn (optional)
--
 
 ## Installation
 

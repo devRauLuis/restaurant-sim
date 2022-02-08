@@ -15,7 +15,7 @@ export const makePeople = () =>
 		(_, i) =>
 			({
 				name: names[i],
-				eatingTime: getRndInteger(1000, 2000),
+				eatingTime: getRndInteger(15000, 20000),
 				food:
 					i < 6
 						? { ENTREE: true, MAIN_DISH: true, DESSERT: true }

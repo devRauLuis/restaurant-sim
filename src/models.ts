@@ -14,3 +14,5 @@ type Person = {
 };
 
 type People = Person[];
+
+export {};
